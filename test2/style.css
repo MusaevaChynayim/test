@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+}
+
+div {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+ div{
+    font-size: 14px;
+    color: #333;
+}
+
+/* Цвет фона для счетчиков */
+.text-input {
+    color: #00ced1;
+}
+
+.entered-chars {
+    color: #ff6347;
+}
